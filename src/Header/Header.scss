@@ -1,0 +1,43 @@
+@import "../assets/Fonts/Fonts.scss";
+
+$phoneTxtSize: 16px;
+$phoneTxtSpacing: 22px;
+
+.HeaderBg{
+    height: 112px;
+    background: #fff;
+    box-shadow: 0px 1px 5px #00000015;
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    padding: 0 50px;
+    @media (min-width:320px) and (max-width:767px) {
+        padding: 0;
+    }
+    h1{
+        text-align: center;
+    }
+}
+.Logo {
+    .a{fill:#7c24ef;}.b{fill:#1660ea;}.c{clip-path:url(#a);}
+}
+.HeaderRightSection{
+.PhoneIcon{
+.a{fill:#1660ea;}
+
+}
+.PhoneIcon > svg{
+    margin-right: 8px;
+    position: relative;
+    top: -2px;
+    }
+    .PhoneIcon > span{
+    font-family: $fontBold;
+    font-size: $phoneTxtSize;
+    line-height: $phoneTxtSpacing;
+
+    }
+}
+}

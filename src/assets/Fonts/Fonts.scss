@@ -1,0 +1,39 @@
+$fontBlack:"Acumin Pro Black";
+$fontBold:"Acumin Pro Bold";
+$fontExtraLight:"Acumin Pro ExtraLight";
+$fontMedium:"Acumin Pro Medium";
+$fontSemibold:"Acumin Pro Semibold";
+$fontThin:"Acumin Pro Thin";
+$fontUltraBlack:"Acumin Pro UltraBlack";
+body{
+    font-family: $fontThin;
+}
+
+@font-face {
+    font-family: "Acumin Pro Black";
+    src: url("../Fonts/fonts/Acumin\ Pro\ Black.otf");
+}
+@font-face {
+    font-family: "Acumin Pro Bold";
+    src: url("../Fonts/fonts/Acumin\ Pro\ Bold.otf");
+}
+@font-face {
+    font-family: "Acumin Pro ExtraLight";
+    src: url("../Fonts/fonts/Acumin\ Pro\ ExtraLight.otf");
+}
+@font-face {
+    font-family: "Acumin Pro Medium";
+    src: url("../Fonts/fonts/Acumin\ Pro\ Medium.otf");
+}
+@font-face {
+    font-family: "Acumin Pro Semibold";
+    src: url("../Fonts/fonts/Acumin\ Pro\ Semibold.otf");
+}
+@font-face {
+    font-family: "Acumin Pro Thin";
+    src: url("../Fonts/fonts/Acumin\ Pro\ Thin.otf");
+}
+@font-face {
+    font-family: "Acumin Pro Black";
+    src: url("../Fonts/fonts/Acumin\ Pro\ UltraBlack.otf");
+}

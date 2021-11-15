@@ -1,0 +1,85 @@
+@import "../assets/Fonts/Fonts.scss";
+
+.a{fill:#1660ea;}
+.Logo {
+    .a{fill:#7c24ef;}.b{fill:#1660ea;}.c{clip-path:url(#a);}
+}
+.footer{
+    padding: 0 70px 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width:320px) and (max-width:767px) {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    }
+}
+@media (min-width:320px) and (max-width:767px) {
+.footer-logo{
+    margin-bottom: 25px;
+}
+}
+.youtube-icon{
+.a{fill:#9b9b9b;}.b{fill:#fff;}
+}
+.twitter-icon{
+    .a{fill:#9b9b9b;}.b{fill:#fff;}
+}
+.facebook-icon{
+    .a{fill:#9b9b9b;}.b{fill:#fff;}
+}
+.instagram-icon{
+    .a{fill:#9b9b9b;}.b{fill:#fff;}
+}
+.linkedin-icon{
+    .a{fill:#9b9b9b;}.b{fill:#fff;}
+}
+.footer-social-icons{
+display: flex;
+list-style: none;
+align-items: center;
+margin: 0;
+padding: 0;
+padding-right: 75px;
+@media (min-width:320px) and (max-width:767px) {
+padding: 0;
+margin-bottom: 15px;
+}
+ li{
+margin-left: 16px;
+}
+
+}
+.footer-center-text{
+    @media (min-width:320px) and (max-width:767px) {
+    order: 3;
+    margin-bottom: 18px;
+    }
+}
+.chat-icon{
+    .a{fill:#fff;}
+}
+.floating-chat{
+    position: fixed;
+    bottom: 50px;
+    right: 62px;
+    background: #1D76F2;
+    border-radius: 30px;
+    height: 59px;
+    width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 11;
+    @media (min-width:320px) and (max-width:767px) {
+    right: 15px
+    }
+}
+.footerinner {
+    padding: 0 55px 50px 0;
+}
